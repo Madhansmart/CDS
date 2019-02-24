@@ -33,6 +33,11 @@ body{
         display: none;
     }
     .main-panel .right-panel{
-        width  : 85%;
+        width  : 85%;   
+    }
+}
+@media screen and (max-width : 768px){    
+    .main-panel .right-panel{
+        width  : 100%;                   
     }
 }
