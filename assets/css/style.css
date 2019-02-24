@@ -1,0 +1,38 @@
+body{
+    background-image: url("../images/background");
+    background-size: 100%;
+}
+.main-panel .left-panel .left-image{
+    margin-top: 20%;
+    margin-left : 10%;
+    width : 100%;            
+    transition: 1.5s;    
+    animation : zoom 0.5s linear;    
+}
+@keyframes zoom{
+    0%{
+        transform: scale(0);                   
+    } 
+    100%{transform: scale(1)}
+}
+.main-panel .right-panel{
+    margin: auto;
+    margin-top: 25%;  
+    padding : 5%;
+    background: white;
+    padding: 3%;
+    width: 70%;
+    box-shadow: 5px 10px 18px #888888;    
+}
+.main-panel .right-panel .right-section{
+    padding : %;
+}
+
+@media screen and (max-width : 900px){
+    .main-panel .left-panel{
+        display: none;
+    }
+    .main-panel .right-panel{
+        width  : 85%;
+    }
+}
